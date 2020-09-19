@@ -69,8 +69,8 @@ section h2
 {
   position: absolute;
   top: 180px;
-  right: 350px;
-
+  right: 400px;
+left: 200px;
   color: yellow;
   font-size: 5em;
   text-transform: uppercase;
