@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap');
+.
+
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+
+
+body
+{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: inline-block;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+section
+{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section a
+{
+  position: relative;
+background: black;
+  color: white;
+  padding: 13px 23px;
+  text-align: center;
+  display: flex;
+  top: 150px;
+  right: 200px;
+  text-decoration: none;
+  border: 4px solid red;
+box-sizing: border-box;
+  font-size: 21px;
+  text-transform: uppercase;
+  font-weight: 800;
+  z-index: 2;
+  transition: 1s;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+section h2
+{
+  position: absolute;
+  top: 180px;
+  right: 350px;
+
+  color: yellow;
+  font-size: 5em;
+  text-transform: uppercase;
+  font-weight: 800;
+  z-index: 2;
+  transition: 2s;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+section h4
+{
+  position: absolute;
+  top: 220px;
+  right: 300px;
+  color: black;
+  font-size: 5em;
+  text-transform: uppercase;
+  font-weight: 800;
+  z-index: 2;
+  transition: 2s;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+section img
+{
+  position: absolute;
+  top: 0px;
+  left: -0px;
+  right: 0px;
+  bottom: 0px;
+
+  width: 140%;
+  height: 140%;
+  pointer-events: none;
+  filter: blur(20px);
+  transition: 2s;
+
+}
