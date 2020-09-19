@@ -68,9 +68,9 @@ box-sizing: border-box;
 section h2
 {
   position: absolute;
-  top: 180px;
+  top: 230px;
   right: 400px;
-left: 200px;
+left: 240px;
   color: yellow;
   font-size: 5em;
   text-transform: uppercase;
@@ -83,7 +83,7 @@ left: 200px;
 section h4
 {
   position: absolute;
-  top: 220px;
+  top: 270px;
   right: 300px;
   color: black;
   font-size: 5em;
