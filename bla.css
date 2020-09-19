@@ -20,6 +20,8 @@ body {
     left: 0;
     height: 100vh;
     overflow-y: auto;
+        color: transparent;
+	text-shadow: 0 0 8px #000;
 }
 
 #title {
